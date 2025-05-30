@@ -1,0 +1,59 @@
+# Básico para todos los sistemas operativos
+*.swp
+*~
+Thumbs.db
+.DS_Store
+
+# Artefactos de compilación de .NET
+bin/
+obj/
+
+# Archivos específicos de Visual Studio y Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de configuración local que pueden contener secretos (ejemplos)
+# Es mejor usar user secrets para secretos reales o variables de entorno.
+# Si tienes appsettings.Development.json con secretos específicos de tu máquina, puedes ignorarlo.
+# Si es genérico para el desarrollo del equipo, puedes mantenerlo.
+# appsettings.Development.json
+# secrets.json
+
+# Archivos de log
+*.log
+logs/
+
+# Paquetes NuGet (si usas una carpeta local de paquetes, aunque con PackageReference es menos común)
+packages/
+*.nupkg
+
+# Herramientas de .NET (si se instalan localmente en el proyecto)
+.config/dotnet-tools.json
+tools/
+
+# Archivos generados por test runners
+TestResults/
+*.trx
+*.html.coverage
+coverage.*.json
+
+# Archivos de publicación
+publish/
+*.pubxml
+*.publishproj
+
+# Directorio .vscode (opcional, depende de tu equipo)
+# Si los archivos launch.json y tasks.json son genéricos y útiles para todos,
+# podrías querer versionarlos. Si contienen rutas o configuraciones específicas del usuario, ignóralos.
+# .vscode/*
+# !.vscode/launch.json
+# !.vscode/tasks.json
+# !.vscode/extensions.json
+
+# Archivos de caché de JetBrains Rider
+*.resharper
+_ReSharper.*/

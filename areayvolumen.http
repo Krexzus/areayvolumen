@@ -1,0 +1,6 @@
+@areayvolumen_HostAddress = http://localhost:5074
+
+GET {{areayvolumen_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
