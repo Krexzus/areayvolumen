@@ -57,3 +57,7 @@ publish/
 # Archivos de caché de JetBrains Rider
 *.resharper
 _ReSharper.*/
+
+# Archivos sensibles y de configuración
+firebase-credentials.json
+appsettings.json
